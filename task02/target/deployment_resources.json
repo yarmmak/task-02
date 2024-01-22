@@ -16,7 +16,10 @@
     "event_sources" : [ ],
     "env_variables" : { },
     "publish_version" : true,
-    "alias" : "${lambdas_alias_name}",
-    "snap_start" : "None"
+    "snap_start" : "None",
+    "url_config" : {
+      "auth_type" : "NONE",
+      "invoke_mode" : "BUFFERED"
+    }
   }
 }
